@@ -1,0 +1,113 @@
+body {
+    background: #2e112d url('Imagens/BG.jpg') scroll no-repeat center top;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table1, .td1, .tr1 {
+    border: 1px solid #c8293f;
+    text-align: center;
+    font-family: Texto;
+    width: 35%;
+    color: #e7e6e2;
+    padding: 20px;
+}
+
+.text {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Texto;
+    color: #e7e6e2;
+}
+
+h1 {
+    font-family: Texto;
+    color: #c8293f;
+}
+
+hr {
+    border: #c8293f solid 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.h2o {
+    text-align: justify;
+    font-family: Texto;
+    color: #c8293f;
+}
+
+.form{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Texto;
+    color: #e7e6e2; 
+}
+
+.img {
+    border-style: solid;
+    border-color: #3b1225;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.img1 {
+    float: left;
+    border-style: solid;
+    border-color: #3b1225;
+    border-radius: 10px;
+    margin: 0px 10px 10px 0;
+    width: 25%;
+}
+
+.text1 {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-family: Texto;
+    color: #e7e6e2;
+}
+
+
+ul {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Texto;
+    color: #e7e6e2;
+}
+
+b {
+    color: #c8293f;
+}
+
+@font-face {
+    font-family: 'Shadded';
+    src: url('Font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('Fontes/Titulo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Texto';
+    src: url('Fontes/Texto.otf') format('truetype');
+}
+
+a {
+    font-family: 'Texto';
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: #c8293f;
+}
